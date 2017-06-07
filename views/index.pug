@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+html(lang="en")
+head
+  meta(charset="UTF-8")
+  title Document
+  script(src="//code.jquery.com/jquery-3.1.1.js")
+  script(src="/js/main.js")
+body
+  h1 See all the burritos
+    ul#burrito-list
+  form(action="javascript:void(0)")
+    label(for="name") Name:
+    input#name(type="text", name="name")
+    label(for="hasBeans") Haz Beanz??
+    input#hasBeans(type="text", name="hasBeans")
+    input(type="submit", value="Add a burrito")

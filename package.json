@@ -1,0 +1,21 @@
+{
+  "name": "burrito-crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "locus": "^2.0.1",
+    "method-override": "^2.3.9",
+    "mongoose": "^4.10.5",
+    "morgan": "^1.8.2",
+    "pug": "^2.0.0-rc.2"
+  }
+}
